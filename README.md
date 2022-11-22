@@ -18,5 +18,14 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 
 - The switches need a bit more configuration. Each switch requires a hostname, some basic security (i.e. password/encryption), and a banner motd. Listed below are the commanads used to configure switch 1. 
 
-![image](https://user-images.githubusercontent.com/118637783/203398716-5ed29926-16b6-44af-b16c-d3137bca3cac.png)
+  -![image](https://user-images.githubusercontent.com/118637783/203398716-5ed29926-16b6-44af-b16c-d3137bca3cac.png)
+   #### Breakdown:
+   - enable secret _password_ - enables a password and password encryption that's based on the md5 hashing algorithm.
+   - line console 0 - provides configuration access for the console port.
+     - password _password_ - sets a password on the console port.
+     - login - controls and prompts the user login request.
+   - service password-encryption - encrypts all the passwords in running-config it can find, including enable password.
+   - banner motd $ $ - configures a banner and message of the day.
+   
+xx
 
