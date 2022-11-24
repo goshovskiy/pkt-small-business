@@ -12,7 +12,7 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 
 <img src="https://user-images.githubusercontent.com/118637783/203377792-12c5ea71-f9f6-4898-8a15-f0e2213584aa.png" width="620" height="320">
 
-#### Basic Configuration - PCs & Switches
+#### Basic Configuration - PCs, Switches, & Routers
 
 - Each PC requires an assigned IP address, subnet mask, and default gateway. This configuration is straightforward.
 
@@ -24,8 +24,16 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
    - line console 0 - provides configuration access for the console port.
      - password _password_ - sets a password on the console port.
      - login - controls and prompts the user login request.
+   - line vty 0 15 - provides configuration access for all 16 virtual lines that allow connecting to the device using telnet or SSH.
+     - password _password_ - sets a password on the console port.
+     - login - controls and prompts the user login request.
    - service password-encryption - encrypts all the passwords in running-config it can find, including enable password.
    - banner motd $ $ - configures a banner and message of the day.
+
+- Routers receive a very similar configuration, only difference being the number of vty lines that can be configured (by default routers only have 5).
+  
+  -![image](https://user-images.githubusercontent.com/118637783/203839577-b89e975d-6def-4ba0-b984-9c6e956728f4.png)
+
    
 xx
 
