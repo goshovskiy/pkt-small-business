@@ -34,11 +34,11 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
   
   -![image](https://user-images.githubusercontent.com/118637783/203839577-b89e975d-6def-4ba0-b984-9c6e956728f4.png)
 
-- We need to assign an IP on a VLAN to each switch. Also, we must assign an IP on the respective interfaces to every router.I will begin explaining the steps in the next section: Switches and Routers - IP configuration.
+- We need to assign an IP on a VLAN to each switch. Also, we must assign IPs on the respective interfaces to every router. I will begin explaining the steps in the next section: Switches and Routers - IP configuration.
 
 #### Switches and Routers - IP Configuration
 
+- To begin, we'll start with the switches.
 
-- In this 
-xx
+  -![image](https://user-images.githubusercontent.com/118637783/203892484-b5e2de4d-34a1-43c7-a388-a2585e14edc3.png)
 
