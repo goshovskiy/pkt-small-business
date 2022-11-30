@@ -36,9 +36,46 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 
 - We need to assign an IP on a VLAN to each switch. Also, we must assign IPs on the respective interfaces to every router. I will begin explaining the steps in the next section: Switches and Routers - IP configuration.
 
-#### Switches and Routers - IP Configuration
+#### Switches and Routers - VLAN/IP Configuration
 
 - To begin, we'll start with the switches.
 
   -![image](https://user-images.githubusercontent.com/118637783/203892484-b5e2de4d-34a1-43c7-a388-a2585e14edc3.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204661881-a7925171-c8c9-4ccd-8a7b-ecdf3a613d9c.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204662189-c233280b-f8e7-435e-ab0f-e379153b869c.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204671079-30f57c87-55fe-4050-90a2-7dab246f0353.png)
+
+- Now, the routers.
+
+  -![image](https://user-images.githubusercontent.com/118637783/204663361-5b3650eb-c601-47b8-b845-dcc5877dd125.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204663989-7116a93d-0391-4a57-b2ad-c0ad38b95c9c.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204670015-d6843b7d-126d-4896-8aa9-f11cf352dd46.png)
+ 
+ 
+#### Trunk Configuration
+
+- We setup access ports on our switches, now we need to setup trunks to carry traffic across all VLANs.
+
+  -
+
+
+
+
+#### Inter-VLAN Routing - Router-on-a-Stick
+
+- Router-on-a-stick:
+
+  -![image](https://user-images.githubusercontent.com/118637783/204670908-3f412a99-154a-44e8-b685-a23748459516.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/204671790-32bd7a9f-4ed5-4f96-bcd5-495cab41abd1.png)
+
+
+
+
+
 
