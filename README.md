@@ -52,18 +52,20 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 
   -![image](https://user-images.githubusercontent.com/118637783/204663361-5b3650eb-c601-47b8-b845-dcc5877dd125.png)
   
-  -![image](https://user-images.githubusercontent.com/118637783/204663989-7116a93d-0391-4a57-b2ad-c0ad38b95c9c.png)
+  -![image](https://user-images.githubusercontent.com/118637783/206090152-154b3549-9b97-47ed-8bcf-deb57fa55dcf.png)
   
-  -![image](https://user-images.githubusercontent.com/118637783/204670015-d6843b7d-126d-4896-8aa9-f11cf352dd46.png)
+  -![image](https://user-images.githubusercontent.com/118637783/206090355-ec46ddaa-d853-4823-aa1a-2453af50af86.png)
  
  
 #### Trunk Configuration
 
-- We setup access ports on our switches, now we need to setup trunks to carry traffic across all VLANs.
+- Earlier we set up access ports on our switches, now we need to setup trunks to carry traffic across all VLANs.
 
-  -
-
-
+  -![image](https://user-images.githubusercontent.com/118637783/206080984-38843175-e05b-479d-a3c1-e73692b082c6.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/206078264-ae251401-a409-468d-87f8-3e7d28f6bdf4.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/206081539-07e45ebf-5a54-4d87-bc07-3dc64ede127a.png)
 
 
 #### Inter-VLAN Routing - Router-on-a-Stick
@@ -73,6 +75,11 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
   -![image](https://user-images.githubusercontent.com/118637783/204670908-3f412a99-154a-44e8-b685-a23748459516.png)
   
   -![image](https://user-images.githubusercontent.com/118637783/204671790-32bd7a9f-4ed5-4f96-bcd5-495cab41abd1.png)
+  
+
+#### Router RIP
+
+ 
 
 
 
