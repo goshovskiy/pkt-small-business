@@ -26,7 +26,7 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
      - login - controls and prompts the user login request.
    - line vty 0 15 - provides configuration access for all 16 virtual lines that allow connecting to the device using telnet or SSH.
      - password _password_ - sets a password on the console port.
-     - login - controls and prompts the user login request.
+     - login - controls and prompts the user login request. 
    - service password-encryption - encrypts all the passwords in running-config it can find, including enable password.
    - banner motd $ $ - configures a banner and message of the day.
 
@@ -41,6 +41,11 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 - To begin, we'll start with the switches.
 
   -![image](https://user-images.githubusercontent.com/118637783/203892484-b5e2de4d-34a1-43c7-a388-a2585e14edc3.png)
+  
+  ####Breakdown:
+     - interface vlan 1 - accesses the virtual local area network port [note: using vlan 1 isn't recommended due to security risks, however, it's being used here for simplicity purposes.]
+     - ip address xxxx - assigns an IP to the specified port
+     - no shutdown - enables an interface
   
   -![image](https://user-images.githubusercontent.com/118637783/204661881-a7925171-c8c9-4ccd-8a7b-ecdf3a613d9c.png)
   
