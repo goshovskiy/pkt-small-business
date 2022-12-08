@@ -52,7 +52,7 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
 
   -![image](https://user-images.githubusercontent.com/118637783/204663361-5b3650eb-c601-47b8-b845-dcc5877dd125.png)
   
-  -![image](https://user-images.githubusercontent.com/118637783/206090152-154b3549-9b97-47ed-8bcf-deb57fa55dcf.png)
+  -![image](https://user-images.githubusercontent.com/118637783/206317414-55e9a3ff-5605-4f70-b05d-ca0e50e251d8.png)
   
   -![image](https://user-images.githubusercontent.com/118637783/206090355-ec46ddaa-d853-4823-aa1a-2453af50af86.png)
  
@@ -78,6 +78,28 @@ This network topology consists of **three** PCs, **four** 2960 switches, **three
   
 
 #### Router RIP
+
+- Router RIP
+
+  -![image](https://user-images.githubusercontent.com/118637783/206317596-7a2dd0ff-8029-4f51-98eb-63f7c97eb909.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/206318192-5a7776ad-d6e5-4711-8e15-218f85c2593d.png)
+
+  -![image](https://user-images.githubusercontent.com/118637783/206318857-a7de209d-fcc1-4783-b444-a009423a191c.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/206319554-79ae4229-4257-47c9-8470-0233720ccd89.png)
+  
+  
+#### SSH
+
+- SSH
+
+  -![image](https://user-images.githubusercontent.com/118637783/206344190-500ef127-8f9a-495a-b4cd-569183362d0e.png)
+  
+  -![image](https://user-images.githubusercontent.com/118637783/206345984-fd28ee21-450f-4a62-af75-ddf76976401e.png)
+
+
+
 
  
 
